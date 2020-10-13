@@ -6,7 +6,7 @@ function Introduction () {
     <div>
       <div className="welcomedive banner-dyf">
 			<div>
-				<h2 className="banner-dyf-inside"> Discover New <span style={{fontWeight: "bold;"}}>Ways of</span> Thinking and <span style={{fontWeight: "bold;"}}>Perceiving</span></h2>
+				<h2 className="banner-dyf-inside"> Discover New <span style={{fontWeight: "bold"}}>Ways of</span> Thinking and <span style={{fontWeight: "bold"}}>Perceiving</span></h2>
 			</div>
 		</div>
     </div>
