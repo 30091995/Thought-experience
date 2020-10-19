@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './components/NavBar'
-import Introduction from './components/Introduction'
-import Banner from './components/Banner'
+import { Route } from 'react-router-dom'
+import Login from './components/Login'
+import Home from './components/Home'
 
 class App extends Component {
 
@@ -16,19 +16,11 @@ class App extends Component {
     })
   }
 
-
   render() {
-    const deepFocus = <h2 className="banner-general-inside">Deep <span className="bold-test">Focus</span></h2>
-    const designingFuture = <h2 className="banner-general-inside">Designing Your <span className="bold-test">Future</span></h2>
-    const structureRythmBalance = <h2 className="banner-general-inside"><span className="bold-test">Structure</span> | Rythm | Balance</h2>
     return (
       <div>
-        {console.log("suca")}
-        <NavBar />
-        <Introduction />
-        <Banner caption={deepFocus} />
-        <Banner caption={designingFuture} />
-        <Banner caption={structureRythmBalance} />
+        <Route exact path="/" render={() => <Home updateUser={this.updateUser} />}/>
+        <Route exact path="/login" render={() => <Login updateUser={this.updateUser} />}/>
       </div>
     );
   }

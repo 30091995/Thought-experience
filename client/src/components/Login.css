@@ -1,0 +1,14 @@
+.loginFullHeight {
+  height: 100vh;
+  background-color:white;
+}
+
+.loginFadeIn {
+  animation: fadein 0.5s ease-out;
+  border-radius: 10px;
+}
+
+@keyframes loginFadein {
+  from {opacity: 0}
+  to {opacity: 1}
+  }

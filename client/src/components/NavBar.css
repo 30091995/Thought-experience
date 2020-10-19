@@ -1,7 +1,6 @@
 .logo {
   display: inline-block;
   position: relative;
-  margin-top: -4px;
 }
 
 .logo img {
@@ -15,16 +14,31 @@
   justify-content: space-between;
   padding: 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .span-style{
   color: #5A6175;
   font-size: 17px;
-  padding-right: 10px;
+}
+
+.unlock-content{
+  color: violet;
 }
 
 .border-bottom{
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgba(0,0,0,.125);
+}
+
+@media only screen and (max-width: 542px){
+
+  .unlock-content{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
