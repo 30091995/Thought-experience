@@ -1,0 +1,22 @@
+.cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.essence-style{
+  text-align: center;
+}
+
+.caption-container{
+  margin-left: 94px;
+  width: 507px;
+  height: 23px;
+}
+
+.caption-style{
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 23px;
+}

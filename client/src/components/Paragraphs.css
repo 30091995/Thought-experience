@@ -1,0 +1,46 @@
+
+.center-text{
+  text-align: center;
+}
+
+.container-text{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.small-container-text{
+  width: 49.5%;
+  overflow: hidden;
+  
+}
+
+.big-container-text{
+  margin-top: 85px;
+  margin-bottom: 85px;
+  display: flex;
+  flex-wrap: row;
+  overflow: hidden;
+}
+
+.small-container-text2{
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 49.5%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 938px){
+  .big-container-text{
+    flex-direction: column;
+  }
+
+  .small-container-text{
+    width: 92%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .small-container-text2{
+    width: 92%;
+  }
+}
