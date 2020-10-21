@@ -1,12 +1,10 @@
-.logo {
-  display: inline-block;
-  position: relative;
-}
 
-.logo img {
+
+.logo-img {
+  margin-top:5px;
   margin-left: 15px;
-  height: 40px;
-  width: auto;    
+  height: 35px;
+  margin-bottom: 10px;    
 }
 
 .nav-box{
@@ -30,15 +28,18 @@
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgba(0,0,0,.125);
+  margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 542px){
+.shifted{
+  padding-left: 15px;
+}
 
-  .unlock-content{
-    padding-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
+
+.font-style{
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
 }
