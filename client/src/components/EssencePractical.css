@@ -1,7 +1,5 @@
 .cont{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  margin-left: 85px;
 }
 
 .essence-style{

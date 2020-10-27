@@ -48,7 +48,7 @@ function NavBar() {
               <NavLink className="font-style" href="https://github.com/reactstrap/reactstrap">EVENTS</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText className="shifted font-style"><a classname="no-decoration" style={{color: "violet", textDecoration: "none"}}href ={""}>UNLOCK CONTENT</a></NavbarText>
+          <NavbarText className="shifted font-style"><a className="no-decoration" style={{color: "violet", textDecoration: "none"}}href ={""}>UNLOCK CONTENT</a></NavbarText>
         </Collapse>
       </Navbar>
 
