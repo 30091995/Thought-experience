@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import './Home.css'
 import EssencePractical from './EssencePractical'
 import Paragraphs from './Paragraphs'
+import DeepFocus from './DeepFocus'
 
 function Home () {
   
@@ -11,6 +12,7 @@ function Home () {
         <NavBar />
         <EssencePractical />
         <Paragraphs />
+        <DeepFocus />
     </div>
   )
 }
