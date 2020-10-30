@@ -1,46 +1,26 @@
+.box-title{
+  padding: 15px 0px;
+}
 
-.center-text{
+.style-title{
+  font-weight: 700;
+  line-height: 28.75px;
+  height: auto;
+  font-size: 25px;
   text-align: center;
 }
 
-.container-text{
-  padding-left: 80px;
-  padding-right: 80px;
+.style-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
-.small-container-text{
-  width: 49.5%;
-  overflow: hidden;
-  
+.box-text{
+  padding: 10px 0px;
 }
 
-.big-container-text{
-  margin-top: 85px;
-  margin-bottom: 85px;
-  display: flex;
-  flex-wrap: row;
-  overflow: hidden;
-}
-
-.small-container-text2{
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 49.5%;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 938px){
-  .big-container-text{
-    flex-direction: column;
-  }
-
-  .small-container-text{
-    width: 92%;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .small-container-text2{
-    width: 92%;
-  }
+.box-container{
+  margin: 20px;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './EssencePractical.css'
-import './SoundWidget'
+import { Container, Row, Col } from 'react-bootstrap'
 
 
 function EssencePractical ()
