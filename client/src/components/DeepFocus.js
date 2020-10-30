@@ -15,7 +15,7 @@ function DeepFocus ()
       <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1056964894&color=%23b6b6b6&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style={{fontSize: "10px", color: "#cccccc", lineBreak: "anywhere", wordBreak: "normal" , overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif", fontWeight: "100"}}><a href="https://soundcloud.com/thoughtexperiences" title="Thought Experiences" target="_blank" style={{color: "#cccccc", textDecoration: "none"}}>Thought Experiences</a> · <a href="https://soundcloud.com/thoughtexperiences/sets/deep-focus" title="Deep Focus" target="_blank" style={{color: "#cccccc", textDecoration: "none"}}>Deep Focus</a></div>
       </div>
       </div>
-
+      <div className="container-box">
       <Container>
             <Row>
               <Col lg="6">
@@ -43,7 +43,7 @@ function DeepFocus ()
               </Col>
             </Row>
           </Container>
-
+      </div>
     </div>
   )
 }
