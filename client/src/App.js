@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route } from 'react-router-dom'
-import Login from './components/Login'
 import Home from './components/Home'
 
 class App extends Component {
@@ -20,7 +19,6 @@ class App extends Component {
     return (
       <div className="App">
         <Route exact path="/" render={() => <Home updateUser={this.updateUser} />}/>
-        <Route exact path="/login" render={() => <Login updateUser={this.updateUser} />}/>
       </div>
     );
   }

@@ -4,6 +4,7 @@ import './Home.css'
 import EssencePractical from './EssencePractical'
 import Paragraphs from './Paragraphs'
 import DeepFocus from './DeepFocus'
+import Registration from './Registration'
 
 function Home () {
   
@@ -13,6 +14,7 @@ function Home () {
         <EssencePractical />
         <Paragraphs />
         <DeepFocus />
+        <Registration />
     </div>
   )
 }
