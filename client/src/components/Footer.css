@@ -12,10 +12,6 @@ color: white;
   background-color: #C4C4C4;
   height: 175px;
   margin-top: 80px;
-}
-
-.flex{
   display: flex;
-  justify-content: center;
   align-items: center;
 }
